@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "No Sarahah on Facebook in Chrome!",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*"
+      ],
+      "js": [ "content.js" ]
+    }
+  ]
+}

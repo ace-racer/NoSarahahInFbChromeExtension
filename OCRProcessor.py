@@ -26,5 +26,5 @@ def get_text_from_image(imageurl):
 
 
     textFromImage = (pytesseract.image_to_string(Image.open(completeImageLocation)))
-    print textFromImage
+    return textFromImage, filename_without_extension, extension
 
